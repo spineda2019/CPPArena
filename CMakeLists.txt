@@ -6,7 +6,7 @@ endif(WIN32)
 project(CPPArena)
 
 # specify the C++ standard
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 
 # add the directories containing the header files to the search path
 include_directories(include)
